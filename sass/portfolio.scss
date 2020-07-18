@@ -290,7 +290,8 @@
   }
   
   .item-examples {
-    width: calc:((100% - 60px) / 3);
+    // width: calc:((100% - 60px) / 3);
+    width: 370px;
     margin-right: 30px;
   }
   
@@ -608,6 +609,6 @@
     line-height: 1.14;
     font-weight: 700;
     /* text-align: center; */
-  } */
+  } 
   
   
