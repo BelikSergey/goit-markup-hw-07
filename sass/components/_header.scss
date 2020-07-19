@@ -36,20 +36,21 @@
 
 .active {
   color: $accent-collor;
+    &::after {
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: 0;
+    transform: translate(0%, 50%);
+ 
+    height: 4px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: $accent-collor;
+    }
+
 }
 
-.active::after {
-  content: '';
-  position: absolute;
-  left:0;
-  bottom: 0;
-  transform: translate(0%, 50%);
-
-  height: 4px;
-  width: 100%;
-  border-radius: 4px;
-  background-color: $accent-collor;
-}
 
 // В навигации ссылки на наши контакты
 
