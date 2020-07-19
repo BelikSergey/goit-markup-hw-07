@@ -83,12 +83,12 @@
   transition-property: color;
   transition-duration: $time;
   transition-timing-function: $cubic;
-  
+   
+    &:hover,
+    &:focus {
+      outline: none;
+      color: $accent-collor;
+    }
 }
 
 
-.contacts-link:hover,
-.contacts-link:focus {
-  outline: none;
-  color: $accent-collor;
-}
